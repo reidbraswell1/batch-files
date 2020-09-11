@@ -17,7 +17,7 @@ REM "Get the Timestamp
 REM --------------------
 FOR /F "tokens=*" %%g IN ('Timestamp.bat') do (SET TIMESTAMP=%%g)
 
-REM echo %TIMESTAMP%
+echo "TimeStamp = %TIMESTAMP%" >> %log%
 
 rem robocopy "%source%\*.mp4" "%destination%" /mov /minage:%X% >> "%log%" 
 
