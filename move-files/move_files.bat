@@ -4,9 +4,9 @@ REM --------------------
 REM "Constants"
 REM --------------------
 set X=0
-set "source=C:\Users\reidb\dwhelper"
-set "log=C:\Users\reidb\Documents\move_files.log"
-set "destination=D:\Users\reid\Documents\CHARLES_STANLEY\CHARLES_STANLEY_NEW"
+set "source=%~1%
+set "log=%~3%
+set "destination=%~2%
 set "mp3=*.mp3"
 set "mp4=*.mp4"
 set "mp3Type=MP3"
